@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+  
+body{
+    background: #F6F5F5;
+}
+  
+button{
+    background-color: #FFFFFF; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    border: 1px solid #CCC; /* Cor da borda */
+    border-radius: 4px; /* Bordas levemente arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.2s; /
+}
+
+button:hover {
+    background-color: #E0E0E0; /* Cor de fundo ao passar o mouse */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;     
+    gap: 20px;               
+    flex-wrap: wrap;         
+    width: 618px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title{
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    margin: auto;
+}
+
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
